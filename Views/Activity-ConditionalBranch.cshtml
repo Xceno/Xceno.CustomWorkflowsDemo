@@ -1,0 +1,10 @@
+﻿@using Orchard.Workflows.Helpers
+@{
+	var outcomes = ((string)Model.State.FirstBranch).FormatOutcomesJson();
+	var outcomes2 = ( (string)Model.State.SecondBranch ).FormatOutcomesJson();
+	var outcomes3 = ( (string)Model.State.ThirdBranch ).FormatOutcomesJson();
+}
+
+<div data-outcomes="@outcomes,@outcomes2,@outcomes3">
+	<div class="branch" ></div>
+</div>

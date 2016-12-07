@@ -1,0 +1,10 @@
+﻿Name: Xceno.CustomWorkflowsDemo
+AntiForgery: enabled
+Author: Xceno
+Website: https://github.com/xceno
+Version: 1.0.0
+OrchardVersion: 1.10.1
+Description: Description for the module
+Features:
+    Xceno.CustomWorkflowsDemo:
+        Description: Description for feature Xceno.CustomWorkflowsDemo.
